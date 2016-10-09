@@ -18,10 +18,10 @@ let character = "good_guys-"+charIDcol+"-"+charIDrow+"-"+ U/D/L/R +"-"+ walkpos;
 ```
 where chirID col and row would be if you have multiple characters in one map, so which column and row they are. In the example png there are 8 characters, each with 12 sprites. To get the second character in the top row, charIDcol=2, charIDrow=1.
 
-U/D/L/R = up,down,left,right
+<pre>U/D/L/R = up,down,left,right
 walkpos = which frame of the animation to use
 it is up to you to determine these for your program
-
+</pre>
 
 Thanks to DemonHuntRpg for the example sprite map.
 http://demonhuntrpg.deviantart.com/art/Free-Radical-Game-Sprites-Attempt-351569524
