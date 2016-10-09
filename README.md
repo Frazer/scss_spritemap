@@ -11,7 +11,8 @@ giving these parameters: divide_sprite_map($name-for-css, $url-of-image,  $sprit
 
 use like this:
 
-```    let character = "good_guys-"+charIDcol+"-"+charIDrow+"-"+ U/D/L/R +"-"+ this.state.walkpos;
+```    
+let character = "good_guys-"+charIDcol+"-"+charIDrow+"-"+ U/D/L/R +"-"+ this.state.walkpos;
 
             <div class={character} style={charPos}></div>
 ```
